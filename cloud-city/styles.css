@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ddeef8;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Rajdhani', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 4rem;
+  color: #35637a;
+}
+
+h3 span {
+  border: solid 0.1rem #35637a;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 18.75rem;
+  width: 16.875rem;
+  margin-top: -9.375rem;
+  margin-left: -8.4375rem;
+}
+
+.outer-hexagon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #35637a;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inner-hexagon {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #35637a;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inner-hexagon .row-one {
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  background-color: #f1f3f7;
+}
+
+.inner-hexagon .row-two {
+  position: absolute;
+  top: 20%;
+  height: 20%;
+  width: 100%;
+  background-color: #ced3df;
+}
+
+.inner-hexagon .row-three {
+  position: absolute;
+  top: 40%;
+  height: 20%;
+  width: 100%;
+  background-color: #a4b1c6;
+}
+
+.inner-hexagon .row-four {
+  position: absolute;
+  top: 60%;
+  height: 20%;
+  width: 100%;
+  background-color: #8094b1;
+}
+
+.details .small-light-circle-left {
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  height: 15%;
+  width: 20%;
+  background-color: #a4b1c6;
+  border-radius: 50%;
+}
+
+.details .big-dark-circle-left {
+  position: absolute;
+  top: 43%;
+  left: -20%;
+  height: 50%;
+  width: 55%;
+  background-color: #35637a;
+  border-radius: 50%;
+}
+
+.details .medium-dark-circle-left {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  height: 30%;
+  width: 35%;
+  background-color: #35637a;
+  border-radius: 50%;
+}
+
+.details .medium-dark-circle-right {
+  position: absolute;
+  top: 58%;
+  left: 80%;
+  height: 30%;
+  width: 35%;
+  background-color: #35637a;
+  border-radius: 50%;
+}
+
+.details .small-dark-circle-right {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  height: 20%;
+  width: 25%;
+  background-color: #35637a;
+  border-radius: 50%;
+}
+
+.details .circle-light-blend {
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  height: 10%;
+  width: 15%;
+  background-color: #8094b1;
+  border-radius: 50%;
+}
+
+.details .floating-city-top {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  height: 5%;
+  width: 15%;
+  background-color: #35637a;
+  border-radius: 50%;
+}
+
+.details .floating-city-shaft {
+  position: absolute;
+  top: 30%;
+  left: 77%;
+  height: 15%;
+  width: 1.5%;
+  background-color: #35637a;
+}
+
+.details .floating-city-bottom {
+  position: absolute;
+  top: 43.5%;
+  left: 76.75%;
+  height: 2%;
+  width: 2%;
+  background-color: #35637a;
+  border-radius: 50%;
+}

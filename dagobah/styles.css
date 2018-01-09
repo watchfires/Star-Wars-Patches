@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8f3dc;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Rajdhani', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 4rem;
+  color: #335c50;
+}
+
+h3 span {
+  border: solid 0.1rem #335c50;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 18.75rem;
+  width: 16.875rem;
+  margin-top: -9.375rem;
+  margin-left: -8.4375rem;
+}
+
+.outer-hexagon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #335c50;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inner-hexagon {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #335c50;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inner-hexagon .row-one {
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  background-color: #f0f4f3;
+}
+
+.inner-hexagon .row-two {
+  position: absolute;
+  top: 20%;
+  height: 20%;
+  width: 100%;
+  background-color: #c7d5d1;
+}
+
+.inner-hexagon .row-three {
+  position: absolute;
+  top: 40%;
+  height: 20%;
+  width: 100%;
+  background-color: #9db4ac;
+}
+
+.inner-hexagon .row-four {
+  position: absolute;
+  top: 60%;
+  height: 20%;
+  width: 100%;
+  background-color: #76948b;
+}
+
+.details .row-two-circle {
+  position: absolute;
+  top: 17%;
+  left: 60%;
+  height: 5%;
+  width: 5%;
+  background-color: #c7d5d1;
+  border-radius: 50%;
+}
+
+.details .row-two-blend {
+  position: absolute;
+  top: 17%;
+  left: 58%;
+  height: 7%;
+  width: 2%;
+  background-color: #f0f4f3;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.details .row-three-medium-circle {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  height: 20%;
+  width: 22%;
+  background-color: #9db4ac;
+  border-radius: 50%;
+}
+
+.details .row-three-small-circle {
+  position: absolute;
+  top: 35%;
+  left: 27%;
+  height: 10%;
+  width: 12%;
+  background-color: #9db4ac;
+  border-radius: 50%;
+}
+
+.details .row-three-blend-left {
+  position: absolute;
+  top: 34%;
+  left: 8.5%;
+  height: 9%;
+  width: 2%;
+  background-color: #c7d5d1;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.details .row-three-blend-middle {
+  position: absolute;
+  top: 34%;
+  left: 38.5%;
+  height: 15%;
+  width: 2%;
+  background-color: #c7d5d1;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.details .row-four-medium-circle {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  height: 20%;
+  width: 22%;
+  background-color: #76948b;
+  border-radius: 50%;
+}
+
+.details .row-four-small-circle {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+  height: 10%;
+  width: 12%;
+  background-color: #76948b;
+  border-radius: 50%;
+}
+
+.details .x-wing-body {
+  background-color: #335c50;
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  height: 15%;
+  width: 4.5%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  transform: rotate(-35deg);
+}
+
+.details .x-wing-wing {
+  background-color: #335c50;
+  position: absolute;
+  top: 73%;
+  left: 71%;
+  height: 10%;
+  width: 3.5%;
+  border-top-right-radius: 0.05rem;
+  transform: rotate(47deg);
+}
+
+.details .x-wing-torpedo {
+  background-color: #335c50;
+  position: absolute;
+  top: 70%;
+  left: 74%;
+  height: 7%;
+  width: 1.5%;
+  border-radius: 50%;
+  transform: rotate(-40deg);
+}
